@@ -1,2 +1,0 @@
-# kindergarten_0720
- 
