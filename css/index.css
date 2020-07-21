@@ -43,7 +43,6 @@ border-right: 10px solid transparent;}
 .logoNav .depth2 > li {line-height: 38px; font-size: 16px; color: #ffae3d;}
 .logoNav .depth1 > li:hover .depth2 {display: block;}
 
-
 .slideOuter { height:600px; 
     overflow:hidden; position:relative; }
 .slideOuter .arr {
@@ -208,8 +207,6 @@ text-align:center }
 .curriBox .copy p { font-weight:bold; 
     font-size:14px; margin:15px 0;
     line-height:1.5  }       
-
-    
 
 .review { background:#fdeace; padding:84px 0 }
 .review ul li { float:left; width:31.66%;}
