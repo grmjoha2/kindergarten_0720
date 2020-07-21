@@ -3,7 +3,7 @@
 
 .row { max-width:1167px; margin:0 auto; }
 
-#header {position: fixed; width: 100%; top: 0; left: 0; z-index: 99999; background: #fff; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);}
+#header {position: fixed; width: 100%; top: 0; left: 0; z-index: 9998; background: #fff; box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);}
 .topmenu .row { position:relative }    
 .topmenu { background:#f76f6f;
     color:rgba(255,255,255,0.7);
@@ -18,9 +18,6 @@
 .logoNav h1 { color:#ffae3d; 
     font-size:26.25px; line-height:76px;
     font-weight:bold;  }
-
-
-
 .logoNav .nav { position:absolute; top:0; right:0;}
 .logoNav .nav .depth1 > li { display: inline-block;
     font-size:15.75px; line-height:76px;
@@ -223,7 +220,7 @@ text-align:center }
     border-radius:50%; text-align:center; 
     line-height:56px; 
     position:absolute; 
-    top:-28px; left:10px; z-index:99999 
+    top:-28px; left:10px; z-index:9997
 }
 .review .blockQuote { background:#fff;
     font-size:17.5px; padding:40px; 
