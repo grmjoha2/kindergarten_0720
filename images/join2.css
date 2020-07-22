@@ -1,0 +1,38 @@
+@charset "utf-8";
+* { margin:0; padding:0; box-sizing:border-box }
+a { color:inherit; text-decoration:none }
+ul { list-style:none }
+fieldset { border:none }
+legend { display:none }
+.row { max-width:1167px; margin:0 auto }
+
+
+.join_form .info_pilsoo { padding-left:20px; padding-bottom:10px; border-bottom:2px solid #000; font-size:15px; color:#f00; }
+.join_form .pilsoo_item { position:relative }
+.join_form .pilsoo_item:before {content:"*"; display:inline-block; position:absolute; left:5px; top:3px; width:15px; font-weight:bold; font-size:17px; color:#f00;}
+
+.join_form .info_list {padding:10px 0; border-bottom:1px solid #ccc;}
+.join_form .info_list li {padding:8px 0;}
+
+.join_form .tit_lbl {width:20%; box-sizing:border-box; padding-left:20px; line-height:45px; font-weight:bold; font-size:17px; letter-spacing: -2px; display:inline-block; }
+.join_form .info_content {width:79%; display:inline-block; vertical-align:top }
+.join_form .info_content * {vertical-align:top;}
+.join_form .info_list input,
+.join_form .info_list select,
+.join_form .info_list .ico_space { height:45px; line-height:45px; }
+.join_form .info_list .w160 { width:160px; border: 1px solid #ccc;}
+.join_form .info_list .w100p { width:100%; border: 1px solid #ccc; }
+.join_form .info_list .w70p { width:70%; border: 1px solid #ccc;}
+.join_form .addr_box {  margin: 5px 0 }
+.join_form .gender_area label,
+.join_form .hobby_area label,
+.join_form .agree_area label { line-height:45px; padding-right:10px  }
+.join_form #query { /* textarea는 글꼴 관련 스타일을 상위태그에서 상속받지 못함 */
+  font-size: 15px;  font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
+  letter-spacing: -1px;   color: #444;   padding: 10px;   line-height: 1.5; }
+.join_form .btn {  text-align: center;  margin-top: 20px }
+.join_form .btn input {   width: 80px;   height: 50px;   background: #000;
+  color: #fff;   border: none;   font-size: 20px;   border-radius: 5px;
+  margin: 0 10px; }
+.join_form .btn input[type='reset'] {   background: #555 }
+.join_form .btn input:hover {   background: #f00 }
