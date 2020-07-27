@@ -14,18 +14,20 @@
 .topmenu a:hover {color:rgb(255, 255, 255, 1) }    
 .topmenu .sns a {padding-right:10px; font-size:12.2px}
 .topmenu .sns a:first-child span {font-size:11px}
-.topmenu .search_box {position: absolute; top: 0; left: 150px;}
+.topmenu .search_box {position: absolute; top: 0; right: 50%; transform: translateX(50%);}
 .topmenu .search_box input {height: 22px; width: 150px; vertical-align: top; border: none; display: inline-block; font-size: 12px; padding: 0 1em; border-radius: 11px 0 0 11px;}
 .topmenu .search_box button {height: 22px; width: 35px; vertical-align: top; border: none; border-radius: 0 11px 11px 0; background: #efefef;}
 .topmenu .login {position:absolute; top:0; right:0}
 .topmenu .login a {padding-left:10px; font-size:11px}
 .logoNav { position:relative; height:76px;}
-.logoNav h1 {color:#ffae3d; font-size:26.25px; line-height:76px; font-weight:bold;}
-.logoNav .nav { position:absolute; top:0; right:0;}
+.logoNav h1 {color:#ffae3d; font-size:26.25px; padding: 24.875px 0; font-weight:bold; line-height: 1;}
+.logoNav .open_nav {display: none;}
+.logoNav .close_nav {display: none;}
+.logoNav .nav {position:absolute; top:0; right:0;}
 .logoNav .nav .depth1 > li { display: inline-block;
-    font-size:15.75px; line-height:76px;
-    padding-left:30px; font-weight:bold;
+    font-size:15.75px; font-weight:bold;
     transition:all 0.5s; position: relative;}
+.logoNav .nav .depth1 > li > a {display: inline-block; padding: 27.5px 0 27.5px 30px;}
 .logoNav .nav .depth1 > li:hover {color:#ffd23c;}
 .logoNav .nav .depth1 > li:first-child {color:#ffd23c}
 .logoNav .nav .depth1 > li > a:after { 

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 1170px) {
+    .row {padding: 0 10px;}
+    .topmenu .login {right:10px}
+}
+@media only screen and (max-width: 992px) {
+    .logoNav {position:relative; height:auto;}
+    .logoNav h1 {padding: 24.875px 0 0; text-align: center;}
+    .logoNav .nav {position: static; text-align: center;}
+}
+@media only screen and (max-width: 841px) {
+    .logoNav h1 {padding: 24.875px 0;}
+    .logoNav .nav {display: none;}
+    .topmenu .login {display: none;}
+    .topmenu .search_box {right: 0; transform: translateX(0);}
+    .logoNav .open_nav {display: block; position: absolute; top: 50%; right: 10px; font-size: 25px; transform: translateY(-50%);}
+    .logoNav .close_nav {display: block; position: absolute; top: 50%; right: 10px; font-size: 25px; transform: translateY(-50%);}
+}
